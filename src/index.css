@@ -1,0 +1,51 @@
+.display > p {
+  font-size: 16px;
+}
+
+.editable {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.editable > button {
+  padding: 5px 10px;
+  margin: 10px 0 10px 0;
+  color: #fff;
+  font-weight: bold;
+  background-color: rgb(241, 35, 35);
+  border-radius: 5px;
+}
+
+.editable > button:hover {
+  cursor: pointer;
+  opacity: 0.8;
+}
+
+.editable > button:first-child {
+  background-color: rgb(53, 158, 214);
+}
+
+input {
+  margin: 15px;
+  padding: 8px;
+  font-size: 17px;
+  border-radius: 5px;
+  border: 1px solid black;
+}
+
+input:focus {
+  border: 2px solid black;
+}
+
+button {
+  margin: 15px;
+  padding: 10px 25px;
+  font-size: 18px;
+  font-weight: 700;
+  /* border: 2px solid rgb(8, 119, 238); */
+  border: none;
+  background-color: rgb(8, 119, 238);
+  color: #fff;
+  border-radius: 5px;
+}
